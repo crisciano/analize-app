@@ -1,0 +1,12 @@
+{
+    "routes":[
+        {
+            "name": "HOME",
+            "path": "/",
+            "component": "HelloPage",
+            "props": {
+                "title": "Home site"
+            }
+        }
+    ]
+}
