@@ -1,6 +1,6 @@
 {
-    "name": "electron-react-boilerplate",
-    "description": "A foundation for scalable desktop apps",
+    "name": "analize-app",
+    "description": "App analize finance",
     "scripts": {
         "build": "concurrently \"npm run build:main\" \"npm run build:renderer\"",
         "build:main": "cross-env NODE_ENV=production TS_NODE_TRANSPILE_ONLY=true webpack --config ./.erb/configs/webpack.config.main.prod.ts",
@@ -106,7 +106,6 @@
         "hot",
         "reload"
     ],
-    "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
     "jest": {
         "testURL": "http://localhost/",
         "testEnvironment": "jsdom",
@@ -224,9 +223,6 @@
     "devEngines": {
         "node": ">=14.x",
         "npm": ">=7.x"
-    },
-    "collective": {
-        "url": "https://opencollective.com/electron-react-boilerplate-594"
     },
     "browserslist": [],
     "prettier": {
